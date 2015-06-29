@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20150622 11:04:14.916" generator="Robot 2.8.7 (Python 2.7.10 on win32)">
+<suite source="C:\Users\Perto\PycharmProjects\Application Testing\Test\Calculator_Gherkin.robot" id="s1" name="Calculator Gherkin">
+<test id="s1-t1" name="Addition">
+<kw type="kw" name="Given calculator has been cleared">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Button">
+<doc>Pushes the specified `button`.</doc>
+<arguments>
+<arg>C</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.038" starttime="20150622 11:04:15.038"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.039" starttime="20150622 11:04:15.036"></status>
+</kw>
+<kw type="kw" name="When user types &quot;1 + 1&quot;">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Buttons">
+<doc>Pushes the specified `buttons`.</doc>
+<arguments>
+<arg>${expression}</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.043" starttime="20150622 11:04:15.042"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.043" starttime="20150622 11:04:15.040"></status>
+</kw>
+<kw type="kw" name="and user pushes equals">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Button">
+<doc>Pushes the specified `button`.</doc>
+<arguments>
+<arg>=</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.047" starttime="20150622 11:04:15.046"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.048" starttime="20150622 11:04:15.045"></status>
+</kw>
+<kw type="kw" name="Then result is &quot;2&quot;">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Result Should Be">
+<doc>Verifies that the current result is `expected`.</doc>
+<arguments>
+<arg>${result}</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.051" starttime="20150622 11:04:15.051"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.052" starttime="20150622 11:04:15.049"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20150622 11:04:15.053" critical="yes" starttime="20150622 11:04:15.034"></status>
+</test>
+<test id="s1-t2" name="Multiplication">
+<kw type="kw" name="Given Calculator has been cleared">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Button">
+<doc>Pushes the specified `button`.</doc>
+<arguments>
+<arg>C</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.061" starttime="20150622 11:04:15.061"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.062" starttime="20150622 11:04:15.059"></status>
+</kw>
+<kw type="kw" name="When user types &quot;5*3&quot;">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Buttons">
+<doc>Pushes the specified `buttons`.</doc>
+<arguments>
+<arg>${expression}</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.065" starttime="20150622 11:04:15.065"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.066" starttime="20150622 11:04:15.063"></status>
+</kw>
+<kw type="kw" name="and User pushes equals">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Button">
+<doc>Pushes the specified `button`.</doc>
+<arguments>
+<arg>=</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.070" starttime="20150622 11:04:15.068"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.070" starttime="20150622 11:04:15.068"></status>
+</kw>
+<kw type="kw" name="Then result is &quot;15&quot;">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Result Should Be">
+<doc>Verifies that the current result is `expected`.</doc>
+<arguments>
+<arg>${result}</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.074" starttime="20150622 11:04:15.073"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.075" starttime="20150622 11:04:15.072"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20150622 11:04:15.076" critical="yes" starttime="20150622 11:04:15.057"></status>
+</test>
+<test id="s1-t3" name="Division">
+<kw type="kw" name="Given Calculator has been cleared">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Button">
+<doc>Pushes the specified `button`.</doc>
+<arguments>
+<arg>C</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.085" starttime="20150622 11:04:15.084"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.085" starttime="20150622 11:04:15.083"></status>
+</kw>
+<kw type="kw" name="When user types &quot;5/2&quot;">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Buttons">
+<doc>Pushes the specified `buttons`.</doc>
+<arguments>
+<arg>${expression}</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.090" starttime="20150622 11:04:15.089"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.090" starttime="20150622 11:04:15.087"></status>
+</kw>
+<kw type="kw" name="and User pushes equals">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Button">
+<doc>Pushes the specified `button`.</doc>
+<arguments>
+<arg>=</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.094" starttime="20150622 11:04:15.093"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.094" starttime="20150622 11:04:15.092"></status>
+</kw>
+<kw type="kw" name="Then result is &quot;2.5&quot;">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Result Should Be">
+<doc>Verifies that the current result is `expected`.</doc>
+<arguments>
+<arg>${result}</arg>
+</arguments>
+<msg timestamp="20150622 11:04:15.099" level="FAIL">2 != 2.5</msg>
+<status status="FAIL" endtime="20150622 11:04:15.099" starttime="20150622 11:04:15.097"></status>
+</kw>
+<status status="FAIL" endtime="20150622 11:04:15.100" starttime="20150622 11:04:15.096"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" endtime="20150622 11:04:15.102" critical="yes" starttime="20150622 11:04:15.080">2 != 2.5</status>
+</test>
+<test id="s1-t4" name="Subtraction">
+<kw type="kw" name="Given Calculator has been cleared">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Button">
+<doc>Pushes the specified `button`.</doc>
+<arguments>
+<arg>C</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.109" starttime="20150622 11:04:15.108"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.109" starttime="20150622 11:04:15.107"></status>
+</kw>
+<kw type="kw" name="When user types &quot;4-5&quot;">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Buttons">
+<doc>Pushes the specified `buttons`.</doc>
+<arguments>
+<arg>${expression}</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.113" starttime="20150622 11:04:15.112"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.114" starttime="20150622 11:04:15.111"></status>
+</kw>
+<kw type="kw" name="and User pushes equals">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Button">
+<doc>Pushes the specified `button`.</doc>
+<arguments>
+<arg>=</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.118" starttime="20150622 11:04:15.116"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.118" starttime="20150622 11:04:15.115"></status>
+</kw>
+<kw type="kw" name="Then result is &quot;-1&quot;">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Result Should Be">
+<doc>Verifies that the current result is `expected`.</doc>
+<arguments>
+<arg>${result}</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.122" starttime="20150622 11:04:15.121"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.122" starttime="20150622 11:04:15.120"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20150622 11:04:15.123" critical="yes" starttime="20150622 11:04:15.104"></status>
+</test>
+<test id="s1-t5" name="Invalid Key">
+<kw type="kw" name="Given Calculator has been cleared">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Button">
+<doc>Pushes the specified `button`.</doc>
+<arguments>
+<arg>C</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.134" starttime="20150622 11:04:15.134"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.134" starttime="20150622 11:04:15.132"></status>
+</kw>
+<kw type="kw" name="When user types &quot;k+j&quot;">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Buttons">
+<doc>Pushes the specified `buttons`.</doc>
+<arguments>
+<arg>${expression}</arg>
+</arguments>
+<msg timestamp="20150622 11:04:15.140" level="FAIL">CalculationError: Invalid button 'k'.</msg>
+<status status="FAIL" endtime="20150622 11:04:15.140" starttime="20150622 11:04:15.138"></status>
+</kw>
+<status status="FAIL" endtime="20150622 11:04:15.140" starttime="20150622 11:04:15.136"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" endtime="20150622 11:04:15.141" critical="yes" starttime="20150622 11:04:15.127">CalculationError: Invalid button 'k'.</status>
+</test>
+<test id="s1-t6" name="Addition">
+<kw type="kw" name="Given Calculator has been cleared">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Button">
+<doc>Pushes the specified `button`.</doc>
+<arguments>
+<arg>C</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.153" starttime="20150622 11:04:15.152"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.154" starttime="20150622 11:04:15.151"></status>
+</kw>
+<kw type="kw" name="When user types &quot;4+ -5&quot;">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Buttons">
+<doc>Pushes the specified `buttons`.</doc>
+<arguments>
+<arg>${expression}</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.158" starttime="20150622 11:04:15.157"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.158" starttime="20150622 11:04:15.155"></status>
+</kw>
+<kw type="kw" name="and user pushes equals">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Button">
+<doc>Pushes the specified `button`.</doc>
+<arguments>
+<arg>=</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.162" starttime="20150622 11:04:15.161"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.163" starttime="20150622 11:04:15.160"></status>
+</kw>
+<kw type="kw" name="Then result is &quot;-1&quot;">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Result Should Be">
+<doc>Verifies that the current result is `expected`.</doc>
+<arguments>
+<arg>${result}</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.167" starttime="20150622 11:04:15.166"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.167" starttime="20150622 11:04:15.165"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20150622 11:04:15.168" critical="yes" starttime="20150622 11:04:15.149"></status>
+</test>
+<test id="s1-t7" name="Subraction">
+<kw type="kw" name="Given Calculator has been cleared">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Button">
+<doc>Pushes the specified `button`.</doc>
+<arguments>
+<arg>C</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.180" starttime="20150622 11:04:15.179"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.180" starttime="20150622 11:04:15.178"></status>
+</kw>
+<kw type="kw" name="When user types &quot;-3 - 5&quot;">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Buttons">
+<doc>Pushes the specified `buttons`.</doc>
+<arguments>
+<arg>${expression}</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.184" starttime="20150622 11:04:15.183"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.184" starttime="20150622 11:04:15.182"></status>
+</kw>
+<kw type="kw" name="and User pushes equals">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Button">
+<doc>Pushes the specified `button`.</doc>
+<arguments>
+<arg>=</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.188" starttime="20150622 11:04:15.187"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.188" starttime="20150622 11:04:15.186"></status>
+</kw>
+<kw type="kw" name="Then result is &quot;-8&quot;">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Result Should Be">
+<doc>Verifies that the current result is `expected`.</doc>
+<arguments>
+<arg>${result}</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.188" starttime="20150622 11:04:15.188"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.188" starttime="20150622 11:04:15.188"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20150622 11:04:15.188" critical="yes" starttime="20150622 11:04:15.175"></status>
+</test>
+<test id="s1-t8" name="Division">
+<kw type="kw" name="Given Calculator has been cleared">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Button">
+<doc>Pushes the specified `button`.</doc>
+<arguments>
+<arg>C</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.204" starttime="20150622 11:04:15.204"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.204" starttime="20150622 11:04:15.188"></status>
+</kw>
+<kw type="kw" name="When user types &quot;5/0&quot;">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Buttons">
+<doc>Pushes the specified `buttons`.</doc>
+<arguments>
+<arg>${expression}</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.204" starttime="20150622 11:04:15.204"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.204" starttime="20150622 11:04:15.204"></status>
+</kw>
+<kw type="kw" name="and User pushes equals">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Button">
+<doc>Pushes the specified `button`.</doc>
+<arguments>
+<arg>=</arg>
+</arguments>
+<msg timestamp="20150622 11:04:15.204" level="FAIL">CalculationError: Division by zero.</msg>
+<status status="FAIL" endtime="20150622 11:04:15.204" starttime="20150622 11:04:15.204"></status>
+</kw>
+<status status="FAIL" endtime="20150622 11:04:15.204" starttime="20150622 11:04:15.204"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" endtime="20150622 11:04:15.204" critical="yes" starttime="20150622 11:04:15.188">CalculationError: Division by zero.</status>
+</test>
+<test id="s1-t9" name="Multiple">
+<kw type="kw" name="Given Calculator has been cleared">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Button">
+<doc>Pushes the specified `button`.</doc>
+<arguments>
+<arg>C</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.219" starttime="20150622 11:04:15.219"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.219" starttime="20150622 11:04:15.219"></status>
+</kw>
+<kw type="kw" name="When user types &quot;5+12/4&quot;">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Buttons">
+<doc>Pushes the specified `buttons`.</doc>
+<arguments>
+<arg>${expression}</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.219" starttime="20150622 11:04:15.219"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.219" starttime="20150622 11:04:15.219"></status>
+</kw>
+<kw type="kw" name="and User pushes equals">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Button">
+<doc>Pushes the specified `button`.</doc>
+<arguments>
+<arg>=</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.235" starttime="20150622 11:04:15.235"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.235" starttime="20150622 11:04:15.219"></status>
+</kw>
+<kw type="kw" name="Then result is &quot;15&quot;">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Result Should Be">
+<doc>Verifies that the current result is `expected`.</doc>
+<arguments>
+<arg>${result}</arg>
+</arguments>
+<msg timestamp="20150622 11:04:15.235" level="FAIL">8 != 15</msg>
+<status status="FAIL" endtime="20150622 11:04:15.235" starttime="20150622 11:04:15.235"></status>
+</kw>
+<status status="FAIL" endtime="20150622 11:04:15.235" starttime="20150622 11:04:15.235"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" endtime="20150622 11:04:15.235" critical="yes" starttime="20150622 11:04:15.219">8 != 15</status>
+</test>
+<test id="s1-t10" name="Long integers">
+<kw type="kw" name="Given Calculator has been cleared">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Button">
+<doc>Pushes the specified `button`.</doc>
+<arguments>
+<arg>C</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.252" starttime="20150622 11:04:15.251"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.252" starttime="20150622 11:04:15.235"></status>
+</kw>
+<kw type="kw" name="When user types &quot;15356565595665565*4555541545155&quot;">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Buttons">
+<doc>Pushes the specified `buttons`.</doc>
+<arguments>
+<arg>${expression}</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.257" starttime="20150622 11:04:15.256"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.257" starttime="20150622 11:04:15.252"></status>
+</kw>
+<kw type="kw" name="and User pushes equals">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Button">
+<doc>Pushes the specified `button`.</doc>
+<arguments>
+<arg>=</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.257" starttime="20150622 11:04:15.257"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.257" starttime="20150622 11:04:15.257"></status>
+</kw>
+<kw type="kw" name="Then result is &quot;69957472561952420950726087575&quot;">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Result Should Be">
+<doc>Verifies that the current result is `expected`.</doc>
+<arguments>
+<arg>${result}</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.257" starttime="20150622 11:04:15.257"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.257" starttime="20150622 11:04:15.257"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20150622 11:04:15.257" critical="yes" starttime="20150622 11:04:15.235"></status>
+</test>
+<test id="s1-t11" name="Non integers">
+<kw type="kw" name="Given Calculator has been cleared">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Button">
+<doc>Pushes the specified `button`.</doc>
+<arguments>
+<arg>C</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.272" starttime="20150622 11:04:15.272"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.272" starttime="20150622 11:04:15.272"></status>
+</kw>
+<kw type="kw" name="When user types &quot;5.3*2.3&quot;">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Buttons">
+<doc>Pushes the specified `buttons`.</doc>
+<arguments>
+<arg>${expression}</arg>
+</arguments>
+<msg timestamp="20150622 11:04:15.272" level="FAIL">CalculationError: Invalid button '.'.</msg>
+<status status="FAIL" endtime="20150622 11:04:15.272" starttime="20150622 11:04:15.272"></status>
+</kw>
+<status status="FAIL" endtime="20150622 11:04:15.272" starttime="20150622 11:04:15.272"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" endtime="20150622 11:04:15.272" critical="yes" starttime="20150622 11:04:15.272">CalculationError: Invalid button '.'.</status>
+</test>
+<test id="s1-t12" name="Multiplication error">
+<kw type="kw" name="Given Calculator has been cleared">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Button">
+<doc>Pushes the specified `button`.</doc>
+<arguments>
+<arg>C</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.288" starttime="20150622 11:04:15.288"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.288" starttime="20150622 11:04:15.288"></status>
+</kw>
+<kw type="kw" name="When user types &quot; 5600 * 0623&quot;">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Buttons">
+<doc>Pushes the specified `buttons`.</doc>
+<arguments>
+<arg>${expression}</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.288" starttime="20150622 11:04:15.288"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.288" starttime="20150622 11:04:15.288"></status>
+</kw>
+<kw type="kw" name="and User pushes equals">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Button">
+<doc>Pushes the specified `button`.</doc>
+<arguments>
+<arg>=</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.304" starttime="20150622 11:04:15.288"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.304" starttime="20150622 11:04:15.288"></status>
+</kw>
+<kw type="kw" name="Then result is &quot;0&quot;">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Result Should Be">
+<doc>Verifies that the current result is `expected`.</doc>
+<arguments>
+<arg>${result}</arg>
+</arguments>
+<msg timestamp="20150622 11:04:15.304" level="FAIL">2256800 != 0</msg>
+<status status="FAIL" endtime="20150622 11:04:15.304" starttime="20150622 11:04:15.304"></status>
+</kw>
+<status status="FAIL" endtime="20150622 11:04:15.304" starttime="20150622 11:04:15.304"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" endtime="20150622 11:04:15.304" critical="yes" starttime="20150622 11:04:15.288">2256800 != 0</status>
+</test>
+<test id="s1-t13" name="Division error">
+<kw type="kw" name="Given Calculator has been cleared">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Button">
+<doc>Pushes the specified `button`.</doc>
+<arguments>
+<arg>C</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.319" starttime="20150622 11:04:15.319"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.319" starttime="20150622 11:04:15.319"></status>
+</kw>
+<kw type="kw" name="When user types &quot;50 / 02&quot;">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Buttons">
+<doc>Pushes the specified `buttons`.</doc>
+<arguments>
+<arg>${expression}</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.319" starttime="20150622 11:04:15.319"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.319" starttime="20150622 11:04:15.319"></status>
+</kw>
+<kw type="kw" name="and User pushes equals">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Push Button">
+<doc>Pushes the specified `button`.</doc>
+<arguments>
+<arg>=</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.319" starttime="20150622 11:04:15.319"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.319" starttime="20150622 11:04:15.319"></status>
+</kw>
+<kw type="kw" name="Then result is &quot;25&quot;">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="CalculatorLibrary.Result Should Be">
+<doc>Verifies that the current result is `expected`.</doc>
+<arguments>
+<arg>${result}</arg>
+</arguments>
+<status status="PASS" endtime="20150622 11:04:15.335" starttime="20150622 11:04:15.319"></status>
+</kw>
+<status status="PASS" endtime="20150622 11:04:15.335" starttime="20150622 11:04:15.319"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20150622 11:04:15.335" critical="yes" starttime="20150622 11:04:15.304"></status>
+</test>
+<doc>Example test case using the gherkin syntax.
+
+This test has a workflow similar to the keyword-driven
+examples. The difference is that the keywords use higher
+abstraction level and their arguments are embedded into
+the keyword names.
+
+This kind of _gherkin_ syntax has been made popular by
+[http://cukes.info|Cucumber]. It works well especially when
+tests act as examples that need to be easily understood also
+by the business people</doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150622 11:04:15.335" starttime="20150622 11:04:14.917"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="6" pass="7">Critical Tests</stat>
+<stat fail="6" pass="7">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="6" pass="7" id="s1" name="Calculator Gherkin">Calculator Gherkin</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20150622 11:04:15.147" level="WARN">Multiple test cases with name 'Addition' executed in test suite 'Calculator Gherkin'.</msg>
+<msg timestamp="20150622 11:04:15.188" level="WARN">Multiple test cases with name 'Division' executed in test suite 'Calculator Gherkin'.</msg>
+</errors>
+</robot>
