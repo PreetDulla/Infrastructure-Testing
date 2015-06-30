@@ -1,5 +1,5 @@
 class Calculator(object):
-    BUTTONS = '1234567890+-*/C='
+    BUTTONS = '1234567890k+-*/C='
 
     def __init__(self):
         self._expression = ''
