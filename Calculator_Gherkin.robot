@@ -50,7 +50,7 @@ Addition
    Given Calculator has been cleared
    When user types "4+ -5"
    and user pushes equals
-   Then result is "-1"
+   Then result is "1"
 
 Subraction
 
