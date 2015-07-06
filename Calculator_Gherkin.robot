@@ -17,7 +17,7 @@ Addition
     Given calculator has been cleared
     When user types "1 + 1"
     and user pushes equals
-    Then result is "2"
+    Then result is "2=3"
     
 Multiplication
     Given Calculator has been cleared
