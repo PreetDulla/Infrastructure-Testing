@@ -30,7 +30,7 @@ Division
    Given Calculator has been cleared
    When user types "5/2"
    and User pushes equals
-   Then result is "2"
+   Then result is "2.5"
 
 Subtraction
 
