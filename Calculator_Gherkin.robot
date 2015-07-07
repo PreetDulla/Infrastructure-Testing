@@ -17,7 +17,7 @@ Addition
     Given calculator has been cleared
     When user types "1 + 1"
     and user pushes equals
-    Then result is "3"
+    Then result is "2"
     
 Multiplication
     Given Calculator has been cleared
@@ -39,18 +39,13 @@ Subtraction
    and User pushes equals
    Then result is "-1"
 
-Invalid Key
-
-   Given Calculator has been cleared
-   When user types "k+j"
-   and User pushes equals
 
 Addition
 
    Given Calculator has been cleared
    When user types "4+ -5"
    and user pushes equals
-   Then result is "1"
+   Then result is "-1"
 
 Subraction
 
@@ -59,19 +54,14 @@ Subraction
    and User pushes equals
    Then result is "-8"
 
-Division
 
-    Given Calculator has been cleared
-    When user types "5/0"
-    and User pushes equals
-    Then result is "0"
 
 Multiple
 
     Given Calculator has been cleared
     When user types "5+12/4"
     and User pushes equals
-    Then result is "15"
+    Then result is "8"
 
 Long integers
 
