@@ -70,19 +70,8 @@ Long integers
     and User pushes equals
     Then result is "69957472561952420950726087575"
 
-Non integers
 
-    Given Calculator has been cleared
-    When user types "5.3*2.3"
-    and User pushes equals
-    Then result should be  "12.19"
 
-Multiplication error
-
-    Given Calculator has been cleared
-    When user types " 5600 * 0623"
-    and User pushes equals
-    Then result is "0"
 
 Division error
 
